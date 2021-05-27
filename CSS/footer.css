@@ -1,0 +1,51 @@
+footer{
+    background-color: #ffffff;
+    letter-spacing: 1px;
+}
+
+tr {
+    margin: 2em 0;
+}
+
+table tr td{
+    text-align: center;
+    padding-left: 2em;
+}
+
+.colm{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12.5vw;
+    font-size: 3.75vw;
+    padding-top: 3vw;
+}
+
+.colm a{
+    text-decoration: none;
+    color: black;
+}
+
+.colm-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 25vw;
+    font-size: 5vw;
+}
+
+.icon i{
+    margin: 3vw 0;
+    text-decoration: none;
+    color: black;
+}
+
+#noteicon{
+    margin: 3vw 0 0 1vw;
+    width: 1.8em;
+    height: 1.8em;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 3vw;
+    padding-bottom: 5vw;
+}

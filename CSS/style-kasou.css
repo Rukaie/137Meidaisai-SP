@@ -1,0 +1,215 @@
+.kasou-news {
+    width: 70vw;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 10vw;
+    padding: 5vw;
+}
+
+.ka-cont-box {
+    width: 80vw;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 5vw;
+    padding: 5vw;
+
+    font-family: kozuka-mincho-pr6n, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.ka-headbox {
+    text-align: center;
+}
+
+.ka-head {
+    display: inline;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, rgb(252, 81, 133) 70%);
+}
+
+.ka-cont-head {
+    padding: 0.35em 0.5em;
+    /*文字周りの余白*/
+    color: #000000;
+    /*文字色*/
+    background: #8eddaa4d;
+    /*背景色*/
+    border-left: solid 5px #8EDDAA;
+    /*左線（実線 太さ 色）*/
+    font-size: 4vw;
+}
+
+.ka-content {
+    margin-top: 1em;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+.indent {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.indent-kyosan {
+    padding-left: 2.4em;
+    text-indent: -2.9em;
+}
+
+.link-box {
+    font-family: kozuka-gothic-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link-box .icon a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-box .icon a {
+    display: flex;
+    align-items: center;
+    transform: translateY(1em);
+}
+
+.ka-heading {
+    /* イタリックの名前 */
+    font-family: kozuka-gothic-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 1;
+    margin-top: 2vw;
+    margin-left: 5.5vw;
+}
+
+.part-heading {
+    /* イタリックの名前 */
+    font-family: kozuka-gothic-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 1;
+    margin-top: 2vw;
+    margin-left: 5.5vw;
+}
+
+.pa-head-big {
+    font-size: 4.5vw;
+    border-bottom: solid;
+    border-color: #FFBF94;
+    border-width: 5px;
+    margin-bottom: 1vw;
+}
+
+.ka-img {
+    width: 100%;
+}
+
+.ka-content a {
+    text-decoration: none;
+    color: #23a5cd;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #23a5cd;
+}
+
+.sandan .left {
+    text-align: center;
+}
+
+table {
+    border: 1px solid;
+    padding-left: 0;
+    border-collapse: collapse;
+}
+
+.sandan td {
+    padding: 0.25em 1em;
+    border: 1px solid;
+}
+
+.sandan {
+    margin: 1em auto;
+}
+
+.ka-underline {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #FFBF94;
+}
+
+.number-indent {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+br {
+    line-height: 0.5em;
+}
+
+.ka-cont-space {
+    margin-top: 0.5em;
+}
+
+.for-movie {
+    display: flex;
+    justify-content: center;
+}
+
+.part-table {
+    border: 1.5px solid;
+    border-collapse: collapse;
+    line-height: 1.5em;
+}
+
+.part-table tr {
+    padding: 1vw 0;
+}
+
+.part-table tr td {
+    font-size: 2.5vw;
+    border: 1px solid;
+    justify-content: center;
+    padding: 1vw 1vw;
+}
+
+.first {
+    width: 20vw;
+    font-weight: bold;
+}
+
+.center {
+    width: 18vw;
+}
+
+.table-disp {
+    display: flex;
+    justify-content: center;
+    margin: 1vw 0 5vw 0;
+}
+
+.second {
+    width: 25vw;
+    font-weight: bold;
+}
+
+.table-head {
+    display: inline;
+    /* font-size: 26px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #FFBF94 70%);
+    /* padding: 0 auto; */
+}
+
+.table-indent {
+    text-align: center;
+}
+
+.part-underline {
+    /* font-size: 4.5vw; */
+    border-bottom: solid;
+    border-color: #FFBF94;
+    border-width: 5px;
+    margin-bottom: 1vw;
+}

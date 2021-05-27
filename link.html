@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+    <title>リンク</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/style-kasou.css">
+
+    <!-- ヘッダーの分のCSSを後で読み込むと、一瞬表示されてしまうのでこれだけ先に読み込む（JSの読み込みの時にHeaderのCSSを読み込むことになるので） -->
+
+    <!-- 普通のfont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- イタリックフォント -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <!-- 小塚・Heavy -->
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'sqb5klf',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <!-- グーグルフォントのやつ -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6P45W64K9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N6P45W64K9');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <!-- 位置確認用 -->
+    <div id="nav-tgl"></div>
+    <!-- これは各ページに埋め込む -->
+    <div id="under-header"></div>
+    <!-- 調整用 -->
+
+
+    <!-- ここから -->
+    <div class="main-block">
+        <!-- 小見出し -->
+        <div class="headblock" style="margin:0 37.5vw; padding-top: 15vw; font-size:6vw;">
+            <span class="circle"></span><span class="ka-heading">リンク</span>
+        </div>
+        <!-- 小見出しここまで -->
+
+        <div class="ka-cont-box" style="padding-top:0;">
+            <div class="link-box">
+                <div class="icon">
+                    <a href="https://twitter.com/meidaisai" target="blank">
+                        <i style="padding-right: 1vw;" class="fab fa-twitter fa-2x"></i>
+                        <span style="padding-top: 1.5vw;">明大祭公式Twitter</span>
+                        <i style="padding-left: 1vw; padding-top: 1.25vw;" class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ka-content">明大祭に関する重要な情報や、明大祭公式SNS・サイト更新のお知らせなどを随時更新していきます。ぜひフォローしていただき、明大祭の動きを注目してみてください！
+            </div>
+
+            <div class="link-box">
+                <div class="icon"><a href="https://www.instagram.com/meidaisai/" target="blank"><i
+                            style="padding-right: 2vw;" class="fab fa-instagram fa-2x"></i><span
+                            style="padding-top: 1.5vw;">明大祭公式Instagram</span>
+                        <i style="padding-left: 1vw; padding-top: 1.25vw;" class="fas fa-chevron-right"></i>
+                    </a></div>
+            </div>
+            <div class="ka-content">明大祭当日の雰囲気や、参加団体・企画の情報などを、写真や動画を中心としてお届けしていきます。また、ストーリーズ機能でも、明大祭に関する最新情報をお届けしていきますので、ぜひご覧ください！
+            </div>
+
+            <div class="link-box" style="padding:1.5vw 0 0.5em 0;">
+                <span class="icon">
+                    <a href="https://note.com/meidaisai" target="blank"><img
+                            style="padding-right: 1vw;  transform: translateY(-0.5em) translateX(-0.25em);" id="noteicon"
+                            src="img/note.png"><span style="transform: translateY(0em);">明大祭公式note</span><i
+                            style="padding-left: 1vw;transform: translateY(0em);" class="fas fa-chevron-right"></i>
+                    </a>
+                </span>
+            </div>
+
+            <div class="ka-content">
+                明大祭に関するまとめ情報や、明大祭実行委員会の各局紹介など、TwitterやInstagramより深い内容を扱い、紹介していきます。「明大祭について深く知りたい！」という方は、ぜひ「note」でお楽しみください！
+            </div>
+            <div style="margin-bottom: 2em;"></div>
+            <span class="ka-cont-head">リンクについて</span>
+            <div class="ka-content">
+                当サイトはリンクフリーです。なお、相互リンクをご希望される方は、お手数ですがご一報いただけますと幸いです。<br>
+                <a href="mailto:koho-137@meidaisai.jp">koho-<span class="for3">137</span>@meidaisai.jp</a>までご連絡ください。また、当サイトに掲載されているすべての文章・画像など、素材の著作権は第137回明大祭実行委員会に帰属します。素材の無断使用やファイルへの直リンクはご遠慮ください。
+            </div>
+
+            <div style="margin-bottom: 2em;"></div>
+            <span class="ka-cont-head">お問い合わせ</span>
+            <div class="ka-content">
+                第<span class="for3">137</span>回明大祭実行委員会 広報局<br>
+                Mail：<a href="mailto:koho-137@meidaisai.jp">koho-<span class="for3">137</span>@meidaisai.jp</a>
+            </div>
+        </div>
+
+        <div class="bottom-space"></div>
+    </div>
+
+
+    <!-- <div class="bottom-space"></div>
+    </div> -->
+
+    <!-- ここまでNews独自 -->
+
+    </div>
+
+
+    <footer id="footer"></footer>
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <script>
+        $(function () {
+            $('#nav-tgl').on('change', function () {
+                var st = $(window).scrollTop();
+                if ($(this).prop("checked") == true) {
+                    $('html').addClass('scroll-prevent');
+                    $('html').css('top', -(st) + 'px');
+                    $('#nav-tgl').on('change', function () {
+                        if ($(this).prop("checked") !== true) {
+                            $('html').removeClass('scroll-prevent');
+                            $(window).scrollTop(st);
+                        }
+                    });
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

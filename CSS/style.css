@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    /* スマホサイトはこれが必要 */
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #23B9CD66; */
+    background-color: #ffffff;
+    /* 40%透過 */
+    /* font-family: kozuka-gothic-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal; */
+}
+
+.index-photo {
+    width: 100vw;
+    background-color: #23B9CD;
+    transform: translateY(0.8vh);
+}
+
+#under-header {
+    height: 11vw;
+}
+
+.date-and {
+    height: 20vw;
+    background-color: #23B9CD;
+}
+
+.date {
+    width: 60%;
+    margin-left: 30%;
+}
+
+.title {
+    padding-top: 3vw;
+    padding-left: 10vw;
+    width: 60%;
+}
+
+.main-block {
+    background-color: #23B9CD66;
+    /* 40%透過 */
+}
+
+.headblock {
+    display: flex;
+    font-size: 8vw;
+    margin: 0 30vw;
+    padding-top: 15vw;
+    padding-bottom: 8vw;
+
+    font-family: kozuka-gothic-pro, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.circle {
+    background-color: #FFBF94;
+    border-radius: 50%;
+    height: 2em;
+    position: absolute;
+    width: 2em;
+}
+
+.heading {
+    /* イタリックの名前 */
+    font-family: 'Montserrat', sans-serif;
+    font: italic;
+    z-index: 1;
+    margin-top: 2.5vw;
+    margin-left: 5.5vw;
+}
+
+/* .buttonblock{
+
+} */
+
+.inbutton {
+    /* font-family: kozuka-gothic-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal; */
+    font-family: kozuka-gothic-pro,sans-serif;
+    /* font-weight: 700; */
+    font-weight: 600;
+    font-style: normal;
+
+    font-size: 4.5vw;
+    text-align: center;
+    color: #F0F0F0;
+    font: 700;
+    padding: 2em 0 0 0;
+    line-height: 1.75em;
+}
+
+.inbutton img{
+    width: 25%;
+}
+
+.button-row {
+    margin: 0 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-row a {
+    text-decoration: none;
+    /* aタグのやつを消す */
+}
+
+.bluebutton {
+    background-color: #23B9CD;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 2vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.75em;
+}
+
+.greenbutton {
+    background-color: #89d6a4;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 2vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.75em;
+}
+
+.index-news {
+    width: 70vw;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 10vw;
+    padding: 5vw;
+}
+
+.date-status .status {
+    color: red;
+    padding: 0 1em;
+    margin-right: 3vw;
+    line-height: 2em;
+    border: solid;
+    border-width: 2px;
+    /* border-radius: 5px; */
+}
+
+.date-status {
+    font-size: 0.8em;
+}
+
+.bottom-space {
+    height: 20vw;
+}
+
+.news-content {
+    margin-top: 5vw;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.readmore {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.readmore a {
+    color: #000;
+    text-decoration: none;
+}
+
+.half-space{
+    margin-left: -0.5em;
+}
+
+.for3{
+    letter-spacing: 0;
+}

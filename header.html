@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/header.css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script> -->
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+
+
+        <div class="appear-part">
+            <a class="header-logo" href="index.html"><img src="img/logo.png" alt="ヘッダー" /></a>
+
+
+            <div class="burger-btn">
+                <!-- ③ハンバーガーボタン -->
+                <div>
+                    <!-- <span class="bars"> -->
+                    <span class="bar bar_top"></span>
+                    <span class="bar bar_mid"></span>
+                    <span class="bar bar_bottom"></span>
+                </div>
+                <!-- </span> -->
+            </div>
+
+
+            <!-- <nav id="nav-menu">​
+                <div class="hamburger-menu">​
+                    <span class="topBar"></span>​
+                    <span class="middleBar"></span>​
+                    <span class="bottomBar"></span>​
+                </div>​
+            </nav> -->
+
+
+        </div>
+
+        <div class="nav-wrapper">
+            <!-- ②ナビゲーションメニュー -->
+            <nav class="header-nav">
+
+
+                <!-- <ul class="nav-list">
+                    <li class="nav-item"><a href="">About</a></li>
+                    <li class="nav-item"><a href="">News</a></li>
+                    <li class="nav-item"><a href="">Access</a></li>
+                </ul> -->
+
+
+                <div class="in-menu-box">
+                    <a href="covid.html">新型コロナウイルス感染拡大<br>に伴う明大祭の対応について</a><i style="transform:translateY(1.25em);"
+                        class="fas fa-chevron-right"></i>
+                </div>
+
+                <div class="menu-headblock" style="margin-left: 37vw;">
+                    <span class="menu-circle"></span><span class="menu-heading">明大祭概要</span>
+                </div>
+                <div class="in-menu-box">
+                    <a href="about_festival.html">明大祭とは<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="in-menu-box">
+                    <a href="committee.html">明大祭実行委員会とは<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="in-menu-box">
+                    <a href="memory.html">過去の明大祭の様子<i class="fas fa-chevron-right"></i></a>
+                </div>
+
+
+                <div class="menu-headblock" style="margin:0 12vw;">
+                    <span class="menu-circle"></span><span class="menu-heading">参加者・参加団体のみなさまへ</span>
+                </div>
+                <div class="in-menu-box">
+                    <a href="participants.html">参加者・参加団体のみなさまへ<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="in-menu-box">
+                    <a href="stage.html">屋外ステージ<i class="fas fa-chevron-right"></i></a>　　
+                    <a href="six_room.html">6番教室ステージ<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="in-menu-box">
+                    <a href="room.html">教室<i class="fas fa-chevron-right"></i></a>　　　　　　
+                    <!-- 全角スペースあり -->
+                    <a href="booth.html">模擬店<i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="menu-headblock" style="margin:0 20vw;">
+                    <span class="menu-circle"></span><span class="menu-heading">企業・校友のみなさまへ</span>
+                </div>
+
+                <div class="in-menu-box">
+                    <a href="partner_company.html">企業のみなさまへ<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="in-menu-box">
+                    <a href="partner_alumni.html">校友のみなさまへ<i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="in-menu-box" style="padding-top: 5vw;">
+                    <a href="media.html">メディアのみなさまへ<i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="in-menu-box-sns" style="padding-top: 5vw;">
+                    <div class="icon"><a href="https://twitter.com/meidaisai" target="blank"><i
+                                class="fab fa-twitter fa-2x"></i></a></div>
+                    <div class="icon" style="padding:2vw 2.25vw;"><a href="https://www.instagram.com/meidaisai/"
+                            target="blank"><i class="fab fa-instagram fa-2x"></i></a></div>
+                    <span><a href="https://note.com/meidaisai" target="blank"><img id="noteicon"
+                                src="img/note.png"></a></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- バックスクロール -->
+    <div class="scrollanime"><a href="#under-header" class="backscroll"><i class="fas fa-chevron-up fa-2x"></i></a>
+    </div>
+
+
+    <!-- //header -->
+    <script>
+        $('.burger-btn').on('click', function () {
+            $('.burger-btn').toggleClass('close');
+            $('.nav-wrapper').toggleClass('slide-in');
+            $('body').toggleClass('noscroll');
+        });
+    </script>
+
+    <!-- <script>
+        $(function () {
+            $(window).scroll(function () {
+                const wHeight = $(window).height();
+                let scrollAmount = $(window).scrollTop();
+                $('.scrollanime').each(function () {
+                    let targetPosition = $(this).offset().top;
+                    if (scrollAmount > targetPosition - wHeight + 5) {
+                        $(this).addClass("fadeInDown");
+                    }
+                });
+            });
+        });
+    </script> -->
+
+    <!-- <script>
+        $(function () {
+            $('a[href^="#"]').click(function () {
+                let speed = 500;
+                let href = $(this).attr("href");
+                let target = $(href == "#" || href == "" ? 'html' : href);
+                let position = target.offset().top;
+                $("html, body").animate({
+                    scrollTop: position
+                }, speed, "swing");
+                return false;
+            });
+        });
+    </script> -->
+    <!-- 右クリック封じ -->
+    <!-- <script>
+        $(function () {
+            $("img").on("contextmenu", function (e) {
+                return false;
+            });
+        });
+    </script> -->
+
+<!-- 後ろでスクロールできないようにするやつ -->
+    <!-- <script>
+        $(function () {
+            $('#nav-tgl').on('change', function () {
+                var st = $(window).scrollTop();
+                if ($(this).prop("checked") == true) {
+                    $('html').addClass('scroll-prevent');
+                    $('html').css('top', -(st) + 'px');
+                    $('#nav-tgl').on('change', function () {
+                        if ($(this).prop("checked") !== true) {
+                            $('html').removeClass('scroll-prevent');
+                            $(window).scrollTop(st);
+                        }
+                    });
+                }
+            });
+        })
+    </script> -->
+</body>
+
+</html>

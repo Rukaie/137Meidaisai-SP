@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="keywords" content="明大祭,明治大学,明大祭実行委員会,明実,第137回明大祭,第137回明大祭実行委員会,明治,新歓,学園祭,祭,学祭,実行委員,大学,生明祭,サークル" />
+    <meta name="description" content="10月30日(土).31日(日).11月1日(月)に開催される明治大学の学園祭、第137回明大祭の新歓特設サイトです！" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!--①-->
+    <meta name="twitter:site" content="@meidaisai" />
+    <!--②-->
+    <meta property="og:url" content="http://meidaisai.jp" />
+    <!--③-->
+    <meta property="og:title" content="第137回明大祭" />
+    <!--④-->
+    <meta property="og:description" content="2021年10月30日(土).31日(日).11月1日(月)に開催される明治大学の学園祭、第137回明大祭の新歓特設サイトです！" />
+    <!--⑤-->
+    <meta property="og:image" content="http://meidaisai.sakura.ne.jp/assets/images/twittercard.jpg">
+    <!--⑥-->
+    <title>第137回明大祭</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <!-- ヘッダーの分のCSSを後で読み込むと、一瞬表示されてしまうのでこれだけ先に読み込む（JSの読み込みの時にHeaderのCSSを読み込むことになるので） -->
+
+
+    <script href="js/main.js"></script>
+    <!-- 普通のfont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- イタリックフォント -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <!-- 小塚・Heavy -->
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'sqb5klf',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <!-- 小塚明朝 -->
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'sqb5klf',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <!-- グーグルフォントのやつ -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6P45W64K9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N6P45W64K9');
+    </script>
+
+    <!-- 直書きでごめんなさい -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
+    <script>
+        // モーダルが開いたら、bodyにfixedを付与
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${window.scrollY}px`;
+
+        // モーダルが閉じられた時...
+        const top = document.body.style.top;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1);
+    </script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <!-- 位置確認用 -->
+    <div id="nav-tgl"></div>
+    <!-- これは各ページに埋め込む -->
+    <div id="under-header"></div>
+    <!-- 調整用 -->
+
+    <!-- ここまで調整用 -->
+    <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:100vw;">
+    <img class="index-photo" src="img/index-photo01.jpg" alt="スライドショーにする予定">
+
+    <div class="date-and">
+        <img class="title" src="img/title.png">
+        <img class="date" src="img/date.png">
+    </div>
+
+    <div class="main-block">
+        <!-- 小見出し -->
+        <div class="headblock" style="margin: 0 28vw;">
+            <span class="circle"></span><span class="heading">Contents</span>
+        </div>
+        <!-- 小見出しここまで -->
+
+        <div class="buttonblock">
+            <div class="button-row">
+                <a href="covid.html">
+                    <div class="bluebutton">
+                        <div class="inbutton" style="padding:1.2em 0;">
+                            <span
+                                style="font-size: 3.5vw; line-height:0em;">新型コロナウイルス<br>感染拡大に伴う<br>明大祭の対応について</span><br><i
+                                style="padding-top: 0.3em;" class="fas fa-arrow-circle-right fa-lg"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="about_festival.html">
+                    <div class="greenbutton">
+                        <div class="inbutton" style="padding-top: 3em;">
+                            明大祭概要<br><i style="padding-top: 1.63em;" class="fas fa-arrow-circle-right fa-lg"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="button-row">
+                <a href="participants.html">
+                    <div class="greenbutton">
+                        <div class="inbutton" style="padding-top: 2.5em;">参加者・参加団体<br>のみなさまへ<br><img
+                                src="img/people_white_24dp.svg">
+                        </div>
+                    </div>
+                </a>
+                <a href="partner_company.html">
+                    <div class="bluebutton">
+                        <div class="inbutton" style="padding-top: 3.3em;">
+                            企業のみなさまへ<br><i style="padding-top: 0.5em;" class="far fa-building  fa-2x"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="button-row">
+                <a href="partner_alumni.html">
+                    <div class="bluebutton">
+                        <div class="inbutton" style="padding-top: 3.3em;">校友のみなさまへ<br><img style="padding-top: 0.5em;"
+                                src="img/people_white_24dp.svg">
+                        </div>
+                    </div>
+                </a>
+                <a href="media.html">
+                    <div class="greenbutton">
+                        <div class="inbutton" style="padding-top: 2.2em;">メディアの<br>みなさまへ<br><img
+                                src="img/laptop_windows_white_24dp.svg">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- 小見出し -->
+        <div class="headblock" style="margin-left: 36vw;">
+            <span class="circle"></span><span class="heading">News</span>
+        </div>
+        <!-- 小見出しここまで -->
+        <div class="index-news">
+            <div class="date-status">
+                <span class="status">UPDATE</span><span>5月24日(月)</span>
+            </div>
+            <div class="news-content">第137回明大祭公式サイトをオープンしました。
+            </div>
+            <div class="readmore">
+                <a href="news.html">MORE >></a>
+            </div>
+        </div>
+
+        <div class="bottom-space"></div>
+    </div>
+
+
+    <footer id="footer"></footer>
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <!-- 右クリック封じ -->
+    <script>
+        $(function () {
+            $("img").on("contextmenu", function (e) {
+                return false;
+            });
+        });
+    </script>
+    <!-- <script>
+        // モーダルが開いたら、bodyにfixedを付与
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${window.scrollY}px`;
+
+        // モーダルが閉じられた時...
+        const top = document.body.style.top;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1);
+    </script> -->
+
+
+    <!-- 後ろでスクロールできないようにするやつ -->
+    <script>
+        $(function () {
+            $('#nav-tgl').on('change', function () {
+                var st = $(window).scrollTop();
+                if ($(this).prop("checked") == true) {
+                    $('html').addClass('scroll-prevent');
+                    $('html').css('top', -(st) + 'px');
+                    $('#nav-tgl').on('change', function () {
+                        if ($(this).prop("checked") !== true) {
+                            $('html').removeClass('scroll-prevent');
+                            $(window).scrollTop(st);
+                        }
+                    });
+                }
+            });
+        })
+    </script>
+
+
+</body>
+
+</html>
