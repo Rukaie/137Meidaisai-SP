@@ -213,3 +213,17 @@ br {
     border-width: 5px;
     margin-bottom: 1vw;
 }
+
+.sandan-room{
+    font-size: 2.5vw;
+    line-height: 2.5em;
+}
+
+.number-room{
+    letter-spacing: 0;
+}
+
+.three-indent{
+    padding-left: 3em;
+    text-indent: -3.15em;
+}

@@ -79,7 +79,7 @@ body {
     /* font-family: kozuka-gothic-pro, sans-serif;
     font-weight: 900;
     font-style: normal; */
-    font-family: kozuka-gothic-pro,sans-serif;
+    font-family: kozuka-gothic-pro, sans-serif;
     /* font-weight: 700; */
     font-weight: 600;
     font-style: normal;
@@ -92,7 +92,7 @@ body {
     line-height: 1.75em;
 }
 
-.inbutton img{
+.inbutton img {
     width: 25%;
 }
 
@@ -149,7 +149,8 @@ body {
 }
 
 .bottom-space {
-    height: 20vw;
+    /* height: 20vw; */
+    padding-top: 20vw;
 }
 
 .news-content {
@@ -168,10 +169,10 @@ body {
     text-decoration: none;
 }
 
-.half-space{
+.half-space {
     margin-left: -0.5em;
 }
 
-.for3{
+.for3 {
     letter-spacing: 0;
 }
