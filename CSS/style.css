@@ -155,8 +155,17 @@ body {
 
 .news-content {
     margin-top: 5vw;
-    font-size: 0.8em;
+    font-size:3vw;
     letter-spacing: 1px;
+    line-height: 2em;
+}
+
+.news-content a {
+    text-decoration: none;
+    color: #23a5cd;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #23a5cd;
 }
 
 .readmore {
@@ -175,4 +184,9 @@ body {
 
 .for3 {
     letter-spacing: 0;
+}
+
+.news-space{
+    letter-spacing: -10px;
+    /* width: 0.5em; */
 }

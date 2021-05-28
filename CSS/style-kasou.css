@@ -5,7 +5,14 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
     margin-left: 10vw;
     padding: 5vw;
+    /* line-height: 2em; */
 }
+
+.kasou-news hr{
+    background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
+
 
 .ka-cont-box {
     width: 80vw;
