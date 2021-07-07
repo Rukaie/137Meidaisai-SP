@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="menu-bg-fixed">
 
 <head>
     <meta charset="UTF-8" />
@@ -26,10 +26,10 @@
     <script>
         (function (d) {
             var config = {
-                    kitId: 'sqb5klf',
-                    scriptTimeout: 3000,
-                    async: true
-                },
+                kitId: 'sqb5klf',
+                scriptTimeout: 3000,
+                async: true
+            },
                 h = d.documentElement,
                 t = setTimeout(function () {
                     h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
@@ -48,7 +48,7 @@
                 clearTimeout(t);
                 try {
                     Typekit.load(config)
-                } catch (e) {}
+                } catch (e) { }
             };
             s.parentNode.insertBefore(tk, s)
         })(document);
@@ -87,7 +87,7 @@
         <!-- 小見出し -->
         <div class="headblock" style="margin:0 10vw; padding-top: 15vw; font-size:5vw;">
             <span style="
-            background-color: #FFBF94;
+            background-color: #f4e767;
             border-radius: 50%;
             height: 3em;
             position: absolute;
@@ -167,11 +167,11 @@
                 <div class="indent">※いくつかのブレイクアウトルームに振り分け、個別相談という形になります。</div><br>みなさまのご参加を心よりお待ちしております。 -->
                 明大祭参加募集説明会は全日程終了いたしました。<br>
                 たくさんのご参加ありがとうございました。<br>
-                明大祭への参加を希望される方は、各形態のページにて情報を随時更新していきますのでご覧ください。<br><br>
+                明大祭への参加を希望される方は、各形態のページにて情報を随時更新していきますのでご覧ください。
 
 
 
-                <span class="half-space">【配布資料】</span><br>
+                <!-- <span class="half-space">【配布資料】</span><br>
                 <i class="fas fa-paperclip"></i><a href="pdf/137thmeidaisai.zip" target="_blank">各種資料</a>(Zip形式)<br>
                 ファイル内の配布資料は、以下の通りです。<br>
                 ・第137回明大祭参加募集要項<br>
@@ -263,164 +263,166 @@
                 <div class="indent">
                     ※エントリーシート提出の詳細につきましては、エントリー団体情報記入フォームの受領を確認した後に、メールにてお知らせいたします。
                 </div>
-            </div>
+            </div> -->
 
-            <div style="margin-bottom: 3em;"></div>
-            <span class="ka-cont-head" style="font-size: 3.75vw;">新型コロナウイルス流行に伴うお知らせ
-            </span>
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head" style="font-size: 3.25vw;">新型コロナウイルス感染症流行に伴うお知らせ
+                </span>
 
-            <div class="ka-content">
-                第137回明大祭実行委員会は明大祭に向け着実に準備を進めておりますが、新型コロナウイルス流行の拡大を受け、例年と対応を変更しております。<br>
-                詳細に関しましては、以下の資料をご覧ください。<br>
-                <i class="fas fa-paperclip"></i><a href="pdf/covid-19.pdf" target="_blank">新型コロナウイルス流行に伴うお知らせ</a><br>
-                みなさまにはご不便をおかけすることとなり、申し訳ございません。
-            </div>
-            <div style="margin-bottom: 3em;"></div>
-            <span class="ka-cont-head">参加形態紹介</span>
-            <div class="ka-content">
-                明大祭の参加形態には、<i class="fas fa-arrow-circle-down"></i><a href="#outdoor">屋外ステージ</a>、<i
-                    class="fas fa-arrow-circle-down"></i><a href="#sixroom">6番教室ステージ</a>、<i
-                    class="fas fa-arrow-circle-down"></i><a href="#room">教室</a>、<i
-                    class="fas fa-arrow-circle-down"></i><a href="#booth">模擬店</a>の4種類があります。
-                <div class="indent">※以下の参加形態は例年のものになります。新型コロナウイルス流行の拡大に伴い変更が生じる可能性があります。あらかじめご了承ください。</div>
-            </div>
-
-
-            <div id="outdoor" style="transform: translateY(-1em);"></div>
-            <div style="margin-bottom: 3em;"></div>
-            <span class="ka-cont-head">屋外ステージ</span><br><span style="font-size: 3vw;"><span
-                    class="half-space">（</span>メインステージ／パフォーマンスエリア／エントランスエリア企画）</span>
+                <div class="ka-content">
+                    第137回明大祭実行委員会は明大祭に向け着実に準備を進めておりますが、新型コロナウイルス感染症流行の拡大を受け、例年と対応を変更しております。<br>
+                    詳細に関しましては、以下の資料をご覧ください。<br>
+                    <i class="fas fa-paperclip"></i><a href="pdf/covid-19.pdf" target="_blank"
+                        style="font-size: 0.9em;">新型コロナウイルス感染症流行に伴うお知らせ</a><br>
+                    みなさまにはご不便をおかけすることとなり、申し訳ございません。
+                </div>
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head">参加形態紹介</span>
+                <div class="ka-content">
+                    明大祭の参加形態には、<i class="fas fa-arrow-circle-down"></i><a href="#outdoor">屋外ステージ</a>、<br>
+                    <i class="fas fa-arrow-circle-down"></i><a href="#sixroom">6番教室ステージ</a>、<i
+                        class="fas fa-arrow-circle-down"></i><a href="#room">教室</a>、<i
+                        class="fas fa-arrow-circle-down"></i><a href="#booth">模擬店</a>の4種類があります。
+                    <div class="indent">※以下の参加形態は例年のものになります。新型コロナウイルス流行の拡大に伴い変更が生じる可能性があります。あらかじめご了承ください。</div>
+                </div>
 
 
-
-            <div style="margin-bottom: 2em;"></div>
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->・
-                <span class="part-underline">メインステージ企画</span>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/135th_Ending.jpg">
-            <div class="ka-content">
-                食堂前のスペースに設置される、大きなステージです。本格的な音響や照明などの設備がそろっており、派手な演出をすることもできます。
-            </div>
+                <div id="outdoor" style="transform: translateY(-2em);"></div>
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head"><a href="stage.html">屋外ステージ</a></span><br><span style="font-size: 3vw;"><span
+                        class="half-space">（</span>メインステージ／パフォーマンスエリア／エントランスエリア企画）</span>
 
 
-            <div style="margin-bottom: 2em;"></div>
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->・
-                <span class="part-underline">パフォーマンスエリア企画</span>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/participants/perfo_dance.jpg">
-            <div class="ka-content">
-                メディア棟横にある最も広いエリアであり、大人数でのパフォーマンスが可能です。観覧スペースとの距離が近く、観客との一体感を感じることができます。
-            </div>
 
-            <div style="margin-bottom: 2em;"></div>
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->・
-                <span class="part-underline">エントランスエリア企画</span>
-                <a href="stage.html"></a>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/participants/entrancearea.jpg">
-            <div class="ka-content">
-                正門前にあり、多くの人の目に留まりやすいエリアです。少人数や1人での参加、団体同士のコラボレーションも可能です。
-            </div>
+                <div style="margin-bottom: 1em;"></div>
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->・
+                    <span class="part-underline">メインステージ企画</span>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/135th_Ending.jpg">
+                <div class="ka-content">
+                    食堂前のスペースに設置される、大きなステージです。本格的な音響や照明などの設備がそろっており、派手な演出をすることもできます。
+                </div>
 
 
-            <div id="sixroom" style="transform: translateY(-1em);"></div>
-            <div style="margin-bottom: 3em;"></div>
-            <span class="ka-cont-head">6番教室ステージ</span>
-            <!-- <br><span style="font-size: 3vw;"><span
+                <div style="margin-bottom: 1em;"></div>
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->・
+                    <span class="part-underline">パフォーマンスエリア企画</span>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/participants/perfo_dance.jpg">
+                <div class="ka-content">
+                    メディア棟横にある最も広いエリアであり、大人数でのパフォーマンスが可能です。観覧スペースとの距離が近く、観客との一体感を感じることができます。
+                </div>
+
+                <div style="margin-bottom: 1em;"></div>
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->・
+                    <span class="part-underline">エントランスエリア企画</span>
+                    <a href="stage.html"></a>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/participants/entrancearea.jpg">
+                <div class="ka-content">
+                    正門前にあり、多くの人の目に留まりやすいエリアです。少人数や1人での参加、団体同士のコラボレーションも可能です。
+                </div>
+
+
+                <div id="sixroom" style="transform: translateY(-2em);"></div>
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head"><a href="six_room.html">6番教室ステージ</a></span>
+                <!-- <br><span style="font-size: 3vw;"><span
                     class="half-space">（</span>メインステージ／パフォーマンスエリア／エントランスエリア企画）</span> -->
-            <!-- <div style="margin-bottom: 2em;"></div> -->
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->
-                ・
-                <span class="part-underline">6番教室ステージ</span>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/participants/6banstage.jpg">
-            <div class="ka-content">
-                2階席含めて約900人を収容できる最も大きな教室でのステージです。ランウェイや照明を使用したステージが設営されるため、大規模で華やかな企画を行うことができます。
-            </div>
+                <!-- <div style="margin-bottom: 2em;"></div> -->
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->
+                    ・
+                    <span class="part-underline">6番教室ステージ</span>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/participants/6banstage.jpg">
+                <div class="ka-content">
+                    2階席含めて約900人を収容できる最も大きな教室でのステージです。ランウェイや照明を使用したステージが設営されるため、大規模で華やかな企画を行うことができます。
+                </div>
 
 
-            <div id="room" style="transform: translateY(-1em);"></div>
-            <div style="margin-bottom: 3em;"></div>
-            <span class="ka-cont-head">教室</span><br><span style="font-size: 3vw;"><span
-                    class="half-space">（</span>大教室／中教室／小教室企画）</span>
+                <div id="room" style="transform: translateY(-2em);"></div>
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head"><a href="room.html">教室</a></span><br><span style="font-size: 3vw;"><span
+                        class="half-space">（</span>大教室／中教室／小教室企画）</span>
 
-            <!-- <div style="margin-bottom: 2em;"></div> -->
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->
-                ・
-                <span class="part-underline">大教室企画</span>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/participants/daikyoushitsu.jpg">
-            <div class="ka-content">
-                大教室は第一校舎や第二校舎などにあり、音楽企画やゲスト誘致企画が多く行われます。また、今年度からグラウンドでの企画も実施できます。
-            </div>
-
-
-            <div style="margin-bottom: 2em;"></div>
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->
-                ・
-                <span class="part-underline">中教室／小教室企画</span>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/participants/kyositu.jpg">
-            <div class="ka-content">
-                中教室はメディア棟や第一校舎、小教室は第二校舎以外の全ての校舎に多くあり、体験型の企画や喫茶、展示発表など多様な企画を実施することができます。また、今年度から小教室での1日企画も実施できます。
-            </div>
-
-            <div id="booth" style="transform: translateY(-1em);"></div>
-            <div style="margin-bottom: 3em;"></div>
-            <span class="ka-cont-head">模擬店</span><br><span style="font-size: 3vw;"><span
-                    class="half-space">（</span>調理／物品販売・参加体験企画）</span>
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->
-                ・
-                <span class="part-underline">調理企画</span>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/participants/mogiten.jpg">
-            <div class="ka-content">
-                サークルやゼミの仲間と鉄板焼きや揚げ物、スイーツなどバリエーション豊かな飲食物を調理・販売することができます。
-            </div>
-
-            <div style="margin-bottom: 2em;"></div>
-            <div class="ka-content">
-                <!-- <i class="fas fa-arrow-circle-right"></i> -->
-                ・
-                <span class="part-underline">物品販売・参加体験企画</span>
-            </div>
-            <div class="ka-cont-space"></div>
-            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
-            <img class="ka-img" src="img/participants/mogiten2.jpg">
-            <div class="ka-content">
-                既製品の販売や来場者の方が実際に参加して楽しめる企画を行うことができます。
-            </div>
+                <!-- <div style="margin-bottom: 2em;"></div> -->
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->
+                    ・
+                    <span class="part-underline">大教室企画</span>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/participants/daikyoushitsu.jpg">
+                <div class="ka-content">
+                    大教室は第一校舎や第二校舎などにあり、音楽企画やゲスト誘致企画が多く行われます。また、今年度からグラウンドでの企画も実施できます。
+                </div>
 
 
+                <div style="margin-bottom: 2em;"></div>
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->
+                    ・
+                    <span class="part-underline">中教室／小教室企画</span>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/participants/kyositu.jpg">
+                <div class="ka-content">
+                    中教室はメディア棟や第一校舎、小教室は第二校舎以外の全ての校舎に多くあり、体験型の企画や喫茶、展示発表など多様な企画を実施することができます。また、今年度から小教室での1日企画も実施できます。
+                </div>
 
-            <div style="margin-bottom: 3em;"></div>
-            <span class="ka-cont-head">お問い合わせ</span>
+                <div id="booth" style="transform: translateY(-2em);"></div>
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head"><a href="booth.html">模擬店</a></span><br><span style="font-size: 3vw;"><span
+                        class="half-space">（</span>調理／物品販売・参加体験企画）</span>
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->
+                    ・
+                    <span class="part-underline">調理企画</span>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/participants/mogiten.jpg">
+                <div class="ka-content">
+                    サークルやゼミの仲間と鉄板焼きや揚げ物、スイーツなどバリエーション豊かな飲食物を調理・販売することができます。
+                </div>
 
-            <div class="ka-content">
-                第<span class="for3">137</span>回明大祭実行委員会 参加団体局<br>
-                Mail：<a href="mailto:sankadantai-137@meidaisai.jp">sankadantai-<span
-                        class="for3">137</span>@meidaisai.jp</a>
+                <div style="margin-bottom: 2em;"></div>
+                <div class="ka-content">
+                    <!-- <i class="fas fa-arrow-circle-right"></i> -->
+                    ・
+                    <span class="part-underline">物品販売・参加体験企画</span>
+                </div>
+                <div class="ka-cont-space"></div>
+                <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:80vw;">
+                <img class="ka-img" src="img/participants/mogiten2.jpg">
+                <div class="ka-content">
+                    既製品の販売や来場者の方が実際に参加して楽しめる企画を行うことができます。
+                </div>
+
+
+
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head">お問い合わせ</span>
+
+                <div class="ka-content">
+                    第<span class="for3">137</span>回明大祭実行委員会 参加団体局<br>
+                    Mail：<a href="mailto:sankadantai-137@meidaisai.jp">sankadantai-<span
+                            class="for3">137</span>@meidaisai.jp</a>
+                </div>
             </div>
         </div>
         <!-- ここまで -->

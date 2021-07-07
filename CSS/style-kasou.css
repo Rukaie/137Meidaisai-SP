@@ -1,3 +1,5 @@
+
+
 .kasou-news {
     width: 70vw;
     background-color: #ffffff;
@@ -41,9 +43,9 @@
     /*文字周りの余白*/
     color: #000000;
     /*文字色*/
-    background: #8eddaa4d;
+    background: #79d2db4d;
     /*背景色*/
-    border-left: solid 5px #8EDDAA;
+    border-left: solid 5px #79d2db;
     /*左線（実線 太さ 色）*/
     font-size: 4vw;
 }
@@ -104,7 +106,7 @@
 .pa-head-big {
     font-size: 4.5vw;
     border-bottom: solid;
-    border-color: #FFBF94;
+    border-color: #f4e767;
     border-width: 5px;
     margin-bottom: 1vw;
 }
@@ -115,10 +117,10 @@
 
 .ka-content a {
     text-decoration: none;
-    color: #23a5cd;
+    color: #2fa89a;
     border-bottom: solid;
     border-width: 1px;
-    border-color: #23a5cd;
+    border-color: #2fa89a;
 }
 
 .sandan .left {
@@ -143,7 +145,7 @@ table {
 .ka-underline {
     border-bottom: solid;
     border-width: 2px;
-    border-color: #FFBF94;
+    border-color: #f4e767;
 }
 
 .number-indent {
@@ -204,7 +206,7 @@ br {
 .table-head {
     display: inline;
     /* font-size: 26px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #FFBF94 70%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, #f4e767 70%);
     /* padding: 0 auto; */
 }
 
@@ -215,7 +217,29 @@ br {
 .part-underline {
     /* font-size: 4.5vw; */
     border-bottom: solid;
-    border-color: #FFBF94;
+    border-color: #f4e767;
+    border-width: 5px;
+    margin-bottom: 1vw;
+}
+
+.theme-underline1 {
+    /* font-size: 4.5vw; */
+    border-bottom: solid;
+    border-color: #2fa89a;
+    border-width: 5px;
+    margin-bottom: 1vw;
+}
+.theme-underline2 {
+    /* font-size: 4.5vw; */
+    border-bottom: solid;
+    border-color: #58a7f0;
+    border-width: 5px;
+    margin-bottom: 1vw;
+}
+.theme-underline3 {
+    /* font-size: 4.5vw; */
+    border-bottom: solid;
+    border-color: #5cce6f;
     border-width: 5px;
     margin-bottom: 1vw;
 }
@@ -232,4 +256,11 @@ br {
 .three-indent{
     padding-left: 3em;
     text-indent: -3.15em;
+}
+
+.schedule-img{
+    width: 125vw;
+}
+.schedule-imgbox{
+    overflow-x: scroll;
 }

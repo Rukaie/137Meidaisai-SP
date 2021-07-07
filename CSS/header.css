@@ -13,11 +13,13 @@
     display: block;
     width: 39px;
     height: 39px;
-    position: relative;
+    position: fixed;
     z-index: 3;
     border: none;
-    margin-left: 10vw;
-    margin-top: 2.5vw;
+    right: 10px;
+    top: 10px;
+    /* margin-left: 10vw;
+    margin-top: 2.5vw; */
     /* transform: translateX(90vw) translateY(-11vw); */
 }
 
@@ -84,24 +86,38 @@
 .header-nav {
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom left, #23B9CD, #8EDDAA);
+    background: linear-gradient(to bottom left, #2fa89a, #8faca8);
     z-index: 2;
     /* display: flex; */
     justify-content: center;
-    padding-top: 8vw;
+    /* padding-top: 8vw; */
     /* overflow: hidden; */
+    overflow-y: scroll;
 }
 
 .in-menu-box {
     display: flex;
     justify-content: center;
-    font-size: 3.75vw;
+    font-size: 3.7vw;
+}
+
+.in-menu-box:first-child{
+    margin-top: 5vw;
+    font-size: 4vw;
 }
 
 .in-menu-box a {
     color: #ffffff;
     padding: 0.5vw 1vw;
     text-decoration: none;
+}
+
+.in-menu-box .spe-covid-a {
+    color: #ffffff;
+    padding: 0.5vw 1vw;
+    text-decoration: none;
+    border: solid;
+    border-radius: 1vw;
 }
 
 .in-menu-box i {
@@ -151,16 +167,18 @@
     display: flex;
     font-size: 5vw;
     margin: 0 30vw;
-    padding-top: 5vw;
-    padding-bottom: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    position: relative;
 }
 
 .menu-circle {
-    background-color: #FFBF94;
+    background-color: #f4e767;
     border-radius: 50%;
-    height: 13vw;
+    height: 10vw;
     position: absolute;
-    width: 13vw;
+    width: 10vw;
+    transform: translateX(-1vw) translateY(1.75vw);
 }
 
 .menu-heading {
@@ -172,12 +190,6 @@
     margin-left: 2.5vw;
 }
 
-
-body.noscroll {
-    /* position: fixed; */
-    overflow: hidden;
-    touch-action: none;
-}
 
 header {
     position: fixed;
