@@ -102,22 +102,24 @@
 }
 
 .in-menu-box:first-child{
-    margin-top: 5vw;
+    /* margin-top: 3em; */
     font-size: 4vw;
 }
 
 .in-menu-box a {
     color: #ffffff;
-    padding: 0.5vw 1vw;
+    padding: 1vw 1vw;
     text-decoration: none;
 }
 
 .in-menu-box .spe-covid-a {
     color: #ffffff;
-    padding: 0.5vw 1vw;
+    padding: 1vw 3vw;
     text-decoration: none;
     border: solid;
     border-radius: 1vw;
+    margin: 5vw 0;
+    margin-top: 15vw;
 }
 
 .in-menu-box i {
