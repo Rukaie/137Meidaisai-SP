@@ -25,6 +25,7 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1px;
+    
 }
 
 .ka-headbox {
@@ -328,4 +329,34 @@ br {
 }
 .timesche-song table{
     border: none;
+}
+
+tr .left{
+    background-color: #2fa89abe;
+}
+
+.special-card{
+    margin-bottom: 3em;
+    vertical-align: bottom;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.special-card-title{
+    position: absolute;
+    color: #ffffff;
+    /* bottom: 0; */
+    /* z-index: 3; */
+    background-color: #2fa89a;
+    transform: translateY(-2.25em);
+    width: 77vw;
+    padding: 1vw 0;
+    padding-left: 3vw;
+    /* font-size: 1.2em; */
+    
+}
+
+.committee-plan{
+    margin: 0.75em 0;
+    line-height: 1.5em;
 }

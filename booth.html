@@ -26,10 +26,10 @@
     <script>
         (function (d) {
             var config = {
-                    kitId: 'sqb5klf',
-                    scriptTimeout: 3000,
-                    async: true
-                },
+                kitId: 'sqb5klf',
+                scriptTimeout: 3000,
+                async: true
+            },
                 h = d.documentElement,
                 t = setTimeout(function () {
                     h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
@@ -48,7 +48,7 @@
                 clearTimeout(t);
                 try {
                     Typekit.load(config)
-                } catch (e) {}
+                } catch (e) { }
             };
             s.parentNode.insertBefore(tk, s)
         })(document);
@@ -93,15 +93,19 @@
 
         <!-- 小見出しここまで -->
         <div class="ka-cont-box">
+            <div class="ka-content">
+                <div>新型コロナウイルス感染症流行により、第1回参加団体説明会、企画書提出、第3回参加団体説明会がオンラインでの実施となりましたのでご注意ください。</div>
+            </div>
             <!-- <img class="ka-img" src="img/135th_Ending.jpg"> -->
             <div class="ka-content">
-                <div class="part-underline" style="width: 7em;font-size:4.5vw; margin: 0 auto; text-align:center;">～調理企画～</div>
+                <div class="part-underline" style="width: 7em;font-size:4.5vw; margin: 0 auto; text-align:center;">
+                    ～調理企画～</div>
                 <div style="margin-bottom: 2em;"></div>
                 <span class="ka-cont-head">スケジュール</span><br>
 
                 <div class="ka-content">
                     <div class="schedule-imgbox">
-                        <img src="img/cook-0704schedule.jpg" class="schedule-img">
+                        <img src="img/0804_cook.jpg" class="schedule-img">
                     </div>
                     <div style="margin-bottom: 2em;"><span class="half-space"></span>（※横スクロールが可能となっております。）</div>
                     <div>注意事項が何点かございますのでご確認ください。</div>
@@ -114,31 +118,95 @@
                     <div class="indent">
                         ※スケジュールは変更される場合があります。
                     </div>
-                    <div class="indent">
+                    <!-- <div class="indent">
                         ※現在各種説明会は対面での実施を予定しております。ただし、新型コロナウイルス感染症流行により、オンラインでの実施となる可能性がございます。その場合は、メールにてお知らせいたします。
-                    </div>
+                    </div> -->
                 </div>
                 <div style="margin-bottom: 2em;"></div>
-                <span class="ka-cont-head">配布資料</span><br>
+                <span class="ka-cont-head">配付資料</span><br>
                 <div style="padding-top: 0.5em;"></div>
                 <div class="ka-content">
-                    <table class="sandan">
-                        <tr>
-                            <td class="left">日付</td>
-                            <td>5月24日(月)～28日(金)</td>
-                        </tr>
-                        <tr>
-                            <td class="left">イベント</td>
-                            <td>明大祭参加募集説明会</td>
-                        </tr>
-                        <tr>
-                            <td class="left">配布資料</td>
-                            <td><i class="fas fa-paperclip"></i><a href="pdf/137GuideLines.pdf"
-                                target="_blank">明大祭参加募集要項</a>
-                                <!-- <br>(Zip形式) --></td>
-                        </tr>
+                    <table class="sandan"
+                        style="border: 1px solid; padding-left: 0;border-collapse: collapse; font-size:0.85em;">
+                        <thead>
+                            <tr>
+                                <td style="width: 28%;">日付</td>
+                                <td style="width: 30%;">イベント</td>
+                                <td>配付資料</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5月24日(月)～28日(金)</td>
+                                <td>明大祭参加募集説明会</td>
+                                <td><i class="fas fa-paperclip"></i><a href="pdf/137GuideLines.pdf"
+                                        target="_blank">明大祭参加募集要項</a></td>
+                            </tr>
+                            <tr>
+                                <td>8月2日(月)、3日(火)</td>
+                                <td>第1回参加団体説明会</td>
+                                <td><i class="fas fa-paperclip"></i><a href="pdf/模擬店【調理企画】.zip"
+                                        target="_blank">各種資料</a><br>
+                                    ファイル内の配付資料は、以下の通りです。<br>
+                                    <table class="table-wrap" style="border: none;">
+                                        <tr>
+                                            <td>・</td>
+                                            <td>第1回参加団体説明会資料【調理企画】</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>企画書【調理企画】</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>企画書入力例【調理企画】</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>企画書入力上の注意【調理企画】</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>備品申請書【調理企画】</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>ガス器具申請書</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>新型コロナウイルス感染症対策誓約書</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>ゲスト誘致誓約書</td>
+                                        </tr>
+                                        <tr>
+                                            <td>・</td>
+                                            <td>返金請求権放棄誓約書</td>
+                                        </tr>
+                                        <tr>
+                                            <td>※</td>
+                                            <td>メールでは上記の資料に加え、参加団体分担金などの請求書を個別に配付しております。</td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+
+                            <!-- コピー用 -->
+                            <!-- <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr> -->
+
+
+
+                        </tbody>
                     </table>
-                    <!-- <span class="half-space">「</span>各種資料」のファイル内の配布資料は以下の通りです。
+                </div>
+                <!-- <span class="half-space">「</span>各種資料」のファイル内の配布資料は以下の通りです。
 
                     <div style="padding-left: 1em;">・第137回明大祭参加募集要項</div>
                     <div style="padding-left: 1em;">・エントリーシート</div>
@@ -149,34 +217,38 @@
                     <div class="indent">
                         ※誓約書は、明大祭参加募集説明会に参加された方のみに配布しております。
                     </div> -->
+            </div>
+
+            <div style="margin-bottom: 3em;"></div>
+            <div class="part-underline" style="width: 15em;font-size:4.5vw; margin: 0 auto; text-align:center;">
+                ～物品販売・参加体験企画～</div>
+            <div style="margin-bottom: 2em;"></div>
+            <span class="ka-cont-head">スケジュール</span><br>
+
+            <div class="ka-content">
+                <div class="schedule-imgbox">
+                    <img src="img/0804_buppin.jpg" class="schedule-img">
                 </div>
-
-                <div style="margin-bottom: 3em;"></div>
-                <div class="part-underline" style="width: 15em;font-size:4.5vw; margin: 0 auto; text-align:center;">～物品販売・参加体験企画～</div>
-                <div style="margin-bottom: 2em;"></div>
-                <span class="ka-cont-head">スケジュール</span><br>
-
-                <div class="ka-content">
-                    <div class="schedule-imgbox">
-                        <img src="img/buppin.jpg" class="schedule-img">
-                    </div>
-                    <div style="margin-bottom: 2em;"><span class="half-space"></span>（※横スクロールが可能となっております。）</div>
-                    <div>注意事項が何点かございますのでご確認ください。</div>
-                    <div class="indent">
-                        ※新型コロナウイルス感染症流行により、明大祭参加募集説明会でお伝えした日程とは異なっております。ご注意ください。
-                    </div>
-                    <div class="indent">
-                        ※模擬店企画を行う方に対しては、第2回参加団体説明会がございませんのでご注意ください。
-                    </div>
-                    <div class="indent">
-                        ※スケジュールは変更される場合があります。
-                    </div>
-                    <div class="indent">
+                <div style="margin-bottom: 2em;"><span class="half-space"></span>（※横スクロールが可能となっております。）</div>
+                <div>注意事項が何点かございますのでご確認ください。</div>
+                <div class="indent">
+                    ※新型コロナウイルス感染症流行により、明大祭参加募集説明会でお伝えした日程とは異なっております。ご注意ください。
+                </div>
+                <div class="indent">
+                    ※模擬店企画を行う方に対しては、第2回参加団体説明会がございませんのでご注意ください。
+                </div>
+                <div class="indent">
+                    ※スケジュールは変更される場合があります。
+                </div>
+                <!-- <div class="indent">
                         ※現在各種説明会は対面での実施を予定しております。ただし、新型コロナウイルス感染症流行により、オンラインでの実施となる可能性がございます。その場合は、メールにてお知らせいたします。
-                    </div>
-                </div>
+                    </div> -->
+            </div>
 
-                <!-- <div class="ka-content">
+            <div style="margin-bottom: 2em;"></div>
+            <span class="ka-cont-head">配付資料</span><br>
+
+            <!-- <div class="ka-content">
                      <span style="font-weight: bold;" class="ka-underline">第<span
                             class="for3">137</span>回明大祭で企画を実施するためには、説明会への参加が必須となります。</span><br>
                     みなさまのご参加を心よりお待ちしております。<br>
@@ -321,7 +393,7 @@
                     </div>
                 </div> -->
 
-                <div style="margin-bottom: 2em;"></div>
+            <!-- <div style="margin-bottom: 2em;"></div>
                 <span class="ka-cont-head">配布資料</span><br>
 
                 <div class="ka-content">
@@ -338,10 +410,10 @@
                             <td class="left">配布資料</td>
                             <td><i class="fas fa-paperclip"></i><a href="pdf/137GuideLines.pdf"
                                 target="_blank">明大祭参加募集要項</a>
-                                <!-- <br>(Zip形式) --></td>
+                                <br>(Zip形式)</td>
                         </tr>
                     </table>
-                    <!-- <span class="half-space">「</span>各種資料」のファイル内の配布資料は以下の通りです。
+                    <span class="half-space">「</span>各種資料」のファイル内の配布資料は以下の通りです。
 
                     <div style="padding-left: 1em;">・第137回明大祭参加募集要項</div>
                     <div style="padding-left: 1em;">・エントリーシート</div>
@@ -351,9 +423,79 @@
                     <div style="padding-left: 1em;">・新型コロナウイルス流行に伴うお知らせ</div><br>
                     <div class="indent">
                         ※誓約書は、明大祭参加募集説明会に参加された方のみに配布しております。
-                    </div> -->
+                    </div>
                 </div>
 
+            </div> -->
+            <div class="ka-content">
+                <table class="sandan"
+                    style="border: 1px solid; padding-left: 0;border-collapse: collapse; font-size:0.85em;">
+                    <thead>
+                        <tr>
+                            <td style="width: 28%;">日付</td>
+                            <td style="width: 30%;">イベント</td>
+                            <td>配付資料</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5月24日(月)～28日(金)</td>
+                            <td>明大祭参加募集説明会</td>
+                            <td><i class="fas fa-paperclip"></i><a href="pdf/137GuideLines.pdf"
+                                    target="_blank">明大祭参加募集要項</a></td>
+                        </tr>
+                        <tr>
+                            <td>8月2日(月)、3日(火)</td>
+                            <td>第1回参加団体説明会</td>
+                            <td><i class="fas fa-paperclip"></i><a href="pdf/模擬店【物品販売・参加体験企画】.zip"
+                                    target="_blank">各種資料</a><br>
+                                ファイル内の配付資料は、以下の通りです。<br>
+                                <table class="table-wrap" style="border: none;">
+                                    <tr>
+                                        <td>・</td>
+                                        <td>第1回参加団体説明会資料【物品販売・参加体験企画】</td>
+                                    </tr>
+                                    <tr>
+                                        <td>・</td>
+                                        <td>企画書【物品販売・参加体験企画】</td>
+                                    </tr>
+                                    <tr>
+                                        <td>・</td>
+                                        <td>企画書入力例【物品販売・参加体験企画】</td>
+                                    </tr>
+                                    <tr>
+                                        <td>・</td>
+                                        <td>企画書入力上の注意【物品販売・参加体験企画】</td>
+                                    </tr>
+                                    <tr>
+                                        <td>・</td>
+                                        <td>備品申請書【物品販売・参加体験企画】</td>
+                                    </tr>
+                                    <tr>
+                                        <td>・</td>
+                                        <td>新型コロナウイルス感染症対策誓約書</td>
+                                    </tr>
+                                    <tr>
+                                        <td>・</td>
+                                        <td>返金請求権放棄誓約書</td>
+                                    </tr>
+                                </table>
+
+                            </td>
+
+                        </tr>
+
+                        <!-- コピー用 -->
+                        <!-- <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr> -->
+
+
+
+                    </tbody>
+                </table>
             </div>
 
 
@@ -362,20 +504,19 @@
 
             <div class="ka-content">
                 第<span class="for3">137</span>回明大祭実行委員会 参加団体局（模擬店部門）<br>
-                Mail：<a href="mailto:mogiten-137@meidaisai.jp">mogiten-<span
-                        class="for3">137</span>@meidaisai.jp</a>
+                Mail：<a href="mailto:mogiten-137@meidaisai.jp">mogiten-<span class="for3">137</span>@meidaisai.jp</a>
             </div>
-        </div>
 
+        </div>
         <div class="bottom-space"></div>
-    </div>
+
 
 
 
     </div>
     <!-- ここまでNews独自 -->
 
-    </div>
+
 
 
     <footer id="footer"></footer>
@@ -403,6 +544,47 @@
             });
         })
     </script>
+    <!-- 追記 -->
+    <style>
+        table {
+            border: 1px solid;
+            padding-left: 0;
+            padding-right: 0;
+            border-collapse: collapse;
+        }
+
+        .sandan td {
+            border: 1px solid;
+            padding-left: 1em 0 1em 0.2em;
+            text-align: left;
+        }
+
+        .sandan {
+            margin: 1em auto;
+        }
+
+        .sandan tr {
+            text-align: left;
+        }
+
+        .table-wrap {
+            border: none;
+            vertical-align: top;
+            padding: 0;
+        }
+
+        .table-wrap tr {
+            border: none;
+            vertical-align: top;
+            padding: 0;
+        }
+
+        .table-wrap td {
+            border: none;
+            text-align: left;
+            padding: 0;
+        }
+    </style>
 </body>
 
 </html>

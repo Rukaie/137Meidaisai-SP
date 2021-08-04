@@ -160,6 +160,10 @@
     /* padding: 0 0.25vw; */
 }
 
+.in-menu-box table{
+    border: none;
+}
+
 .menu-headblock {
     font-family: kozuka-gothic-pro, sans-serif;
     /* font-weight: 700; */

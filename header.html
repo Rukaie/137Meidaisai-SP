@@ -57,18 +57,19 @@
 
 
                 <div class="in-menu-box">
-                    <a href="covid.html" class="spe-covid-a">新型コロナウイルス感染拡大<br>に伴う明大祭の対応について<i style="transform:translateY(-0.75em);"
-                        class="fas fa-chevron-right"></i></a>
+                    <a href="covid.html" class="spe-covid-a">新型コロナウイルス感染拡大<br>に伴う明大祭の対応について<i
+                            style="transform:translateY(-0.75em);" class="fas fa-chevron-right"></i></a>
                 </div>
 
                 <div class="menu-headblock" style="margin-left: 36vw;">
                     <span class="menu-circle"></span><span class="menu-heading">明大祭概要</span>
                 </div>
                 <div class="in-menu-box">
-                    <a href="about_festival.html">明大祭とは<i class="fas fa-chevron-right"></i></a>　<a href="committee.html">明大祭実行委員会とは<i class="fas fa-chevron-right"></i></a>
+                    <a href="about_festival.html">明大祭とは<i class="fas fa-chevron-right"></i></a>　<a
+                        href="committee.html">明大祭実行委員会とは<i class="fas fa-chevron-right"></i></a>
                 </div>
                 <div class="in-menu-box">
-                    
+
                 </div>
                 <div class="in-menu-box">
                     <a href="memory.html">過去の明大祭の様子<i class="fas fa-chevron-right"></i></a>
@@ -91,7 +92,7 @@
                     <a href="booth.html">模擬店<i class="fas fa-chevron-right"></i></a>
                 </div>
 
-                <div class="menu-headblock" style="margin:0 43vw;">
+                <div class="menu-headblock" style="margin:0 40vw;">
                     <!-- <span style="
                     background-color: #f4e767;
                     border-radius: 50%;
@@ -99,7 +100,8 @@
                     position: absolute;
                     width: 2.5em;
                     transform: translateX(-0.25em) translateY(0em);"></span> -->
-                    <span class="menu-heading">特集</span>
+                    <span class="menu-heading"><div><a href="special.html" style="
+                        text-decoration: none;color: black;">特集<i class="fas fa-chevron-right"  style="color: black;padding:0  1vw 0 1vw ;"></i></a></div></span>
                     <span class="menu-circle"></span>
                 </div>
                 <div class="in-menu-box">
@@ -108,16 +110,48 @@
                 <div class="in-menu-box">
                     <a href="themesong.html">第137回明大祭公式テーマソング募集<i class="fas fa-chevron-right"></i></a>
                 </div>
+                <!-- <div class="in-menu-box">
+                    <a href="opening.html">Opening<i class="fas fa-chevron-right"></i></a>　　 -->
+                <!-- 全角スペースあり -->
+                <!-- <a href="theater.html">シアター企画（仮）<i class="fas fa-chevron-right"></i></a>
+                </div> -->
+                <!-- <div class="in-menu-box">
+                    <a href="ending.html">Ending<i class="fas fa-chevron-right"></i></a>　　　　　　　　 -->
+                <!-- 全角スペースあり -->
+                <!-- <a href="midnight.html">中夜祭<i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="in-menu-box">
+                    <a href="versus.html">対決企画（仮）<i class="fas fa-chevron-right"></i></a>
+                </div> -->
+                <div class="in-menu-box">
+                    <table>
+                        <tr>
+                            <td> <a href="opening.html">Opening<i class="fas fa-chevron-right"></i></a></td>
+                            <td><a href="theater.html">シアター企画（仮）<i class="fas fa-chevron-right"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="ending.html">Ending<i class="fas fa-chevron-right"></i></a></td>
+                            <td><a href="midnight.html">中夜祭<i class="fas fa-chevron-right"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <a href="versus.html">対決企画（仮）<i class="fas fa-chevron-right"></i></a></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+
+
 
                 <div class="menu-headblock" style="margin:0 20vw;">
                     <span class="menu-circle"></span><span class="menu-heading">企業・校友のみなさまへ</span>
                 </div>
 
                 <div class="in-menu-box">
-                    <a href="partner_company.html">企業のみなさまへ<i class="fas fa-chevron-right"></i></a>　<a href="partner_alumni.html">校友のみなさまへ<i class="fas fa-chevron-right"></i></a>
+                    <a href="partner_company.html">企業のみなさまへ<i class="fas fa-chevron-right"></i></a>　<a
+                        href="partner_alumni.html">校友のみなさまへ<i class="fas fa-chevron-right"></i></a>
                 </div>
                 <div class="in-menu-box">
-                    
+
                 </div>
 
                 <div class="menu-headblock" style="margin:0 23vw;">
@@ -193,7 +227,7 @@
         });
     </script>
 
-<!-- 後ろでスクロールできないようにするやつ -->
+    <!-- 後ろでスクロールできないようにするやつ -->
     <!-- <script>
         $(function () {
             $('#nav-tgl').on('change', function () {
@@ -222,10 +256,10 @@
                     $(".menu-bg-fixed").addClass("scroll-prevent");
                     $("html").css("top", -st + "px");
                     $(".burger-btn").on("click", function () {
-                    if (!$("body").hasClass("noscroll")) {
-                        $(".menu-bg-fixed").removeClass("scroll-prevent");
-                        $(window).scrollTop(st);
-                    }
+                        if (!$("body").hasClass("noscroll")) {
+                            $(".menu-bg-fixed").removeClass("scroll-prevent");
+                            $(window).scrollTop(st);
+                        }
                     });
                 }
             });
