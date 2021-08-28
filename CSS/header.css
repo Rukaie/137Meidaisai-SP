@@ -164,6 +164,11 @@
     border: none;
 }
 
+.in-menu-box table tr td{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
 .menu-headblock {
     font-family: kozuka-gothic-pro, sans-serif;
     /* font-weight: 700; */

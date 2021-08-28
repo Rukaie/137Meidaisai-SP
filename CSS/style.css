@@ -5,14 +5,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     /* background-color: #2fa89a66; */
     background-color: #ffffff;
-    /* 40%透過 */
-    /* font-family: kozuka-gothic-pro, sans-serif;
-    font-weight: 900;
-    font-style: normal; */
     font-display: block;
 }
-/* #2fa89a */
-/* #f4e767 */
+
 .index-photo {
     width: 100vw;
     background-color: #2fa89a;
@@ -50,7 +45,6 @@ body {
     margin: 0 30vw;
     padding-top: 15vw;
     padding-bottom: 8vw;
-
     font-family: kozuka-gothic-pro, sans-serif;
     font-weight: 600;
     font-style: italic;
@@ -73,19 +67,10 @@ body {
     margin-left: 5.5vw;
 }
 
-/* .buttonblock{
-
-} */
-
 .inbutton {
-    /* font-family: kozuka-gothic-pro, sans-serif;
-    font-weight: 900;
-    font-style: normal; */
     font-family: kozuka-gothic-pro, sans-serif;
-    /* font-weight: 700; */
     font-weight: 600;
     font-style: normal;
-
     font-size: 4.5vw;
     text-align: center;
     color: #F0F0F0;
