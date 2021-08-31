@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="menu-bg-fixed">
 
 <head>
     <meta charset="UTF-8" />
@@ -26,10 +26,10 @@
     <script>
         (function (d) {
             var config = {
-                    kitId: 'sqb5klf',
-                    scriptTimeout: 3000,
-                    async: true
-                },
+                kitId: 'sqb5klf',
+                scriptTimeout: 3000,
+                async: true
+            },
                 h = d.documentElement,
                 t = setTimeout(function () {
                     h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
@@ -48,7 +48,7 @@
                 clearTimeout(t);
                 try {
                     Typekit.load(config)
-                } catch (e) {}
+                } catch (e) { }
             };
             s.parentNode.insertBefore(tk, s)
         })(document);
@@ -74,8 +74,8 @@
 
 <body>
     <header id="header"></header>
-<!-- 位置確認用 -->
-<div id="nav-tgl"></div>
+    <!-- 位置確認用 -->
+    <div id="nav-tgl"></div>
     <!-- これは各ページに埋め込む -->
     <div id="under-header"></div>
     <!-- 調整用 -->
@@ -87,7 +87,7 @@
         <div class="headblock" style="margin:0 13vw; padding-top: 15vw; font-size:4vw;">
             <!-- <span class="circle"></span> -->
             <span style="
-            background-color: #FFBF94;
+            background-color: #f4e767;
             border-radius: 50%;
             height: 5em;
             position: absolute;
@@ -104,18 +104,67 @@
             <!-- <span class="ka-cont-head">はじめに</span> -->
             <div class="ka-content">
                 第<span class="for3">137</span>回明大祭実行委員会は現在、本学学生の学術・文化活動の成果を多くの方にご覧いただくため、明大祭開催へ向け着実に準備を進めております。<br>
-                そこで、新型コロナウイルスの感染拡大を受け、第<span class="for3">137</span>回明大祭実行委員会は以下の対応をとることにいたしました。みなさまにはご不便をおかけすることとなりますが、ご理解ご協力のほど何卒よろしくお願いします。<br>
+                それに際して、新型コロナウイルス感染症の感染拡大を受け、<span class="part-underline">第<span
+                    class="for3">137</span>回明大祭は対面開催とし、来場者制限を設けるとともにチケット制による時間指定制度を用いることといたしました。</span>みなさまにはご不便をおかけすることとなりますが、ご理解ご協力のほどよろしくお願いします。
+                来場することができない方は、企画をインターネット上で配信する予定ですのでそちらからご参加ください。<br>詳細につきましては今後、更新させていただきます。<br>
                 また、これらの対応は今後変更する可能性がございますのでご了承ください。
 
                 <div style="margin-bottom: 3em;"></div>
-                <span class="ka-cont-head">参加団体・参加者のみなさまへ</span>
+                <span class="ka-cont-head">来場者制限について</span>
                 <div class="ka-content">
-                    第<span class="for3">137</span>回明大祭実行委員会は、新型コロナウイルスの感染拡大を受け、例年と対応を変更しております。<br>
-                    詳細に関しましては、以下の資料をご覧ください。<br>
-                    <a href="pdf/covid-19.pdf" target="_blank">新型コロナウイルス流行に伴うお知らせ</a><br>
-                    みなさまにはご不便をおかけすることとなり、申し訳ありません。<br>
-                    <a href="participants.html">参加団体・参加者のみなさまへ</a>のページも併せてご覧ください。
+                    第<span class="for3">137</span>回明大祭では
+                    <table class="table-wrap" style="font-size: 1.15em;">
+                        <tr>
+                            <td>・</td>
+                            <td>参加明大生</td>
+                        </tr>
+                        <tr>
+                            <td>・</td>
+                            <td>非参加明大生</td>
+                        </tr>
+                        <tr>
+                            <td>・</td>
+                            <td>明大生の親族</td>
+                        </tr>
+                        <tr>
+                            <td>・</td>
+                            <td>明治大学の受験を考えている方とその保護者の方</td>
+                        </tr>
+                        <tr>
+                            <td>・</td>
+                            <td>和泉キャンパス周辺にお住まいの方</td>
+                        </tr>
+                        <tr>
+                            <td>・</td>
+                            <td>明治大学のOB・OGの方</td>
+                        </tr>
+                        <tr>
+                            <td>・</td>
+                            <td>協賛企業の方</td>
+                        </tr>
 
+                    </table>
+                    のみのご来場とさせていただきます。<br><br>
+                    <table class="table-wrap">
+                        <tr>
+                            <td>※</td>
+                            <td>
+                                なお、その他出演するゲストの方・業者の方は和泉キャンパスに入構が可能となっております。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>※</td>
+                            <td>
+                                チケットを持っていない方のご来場は固くお断りさせていただきます。
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style="margin-bottom: 3em;"></div>
+                <span class="ka-cont-head">時間指定について</span>
+                <div class="ka-content">
+                    <span class="part-underline">参加明大生以外の来場者の方</span>は時間指定での来場とさせていただきます。<span class="part-underline">参加明大生の方</span>には事前に入構人数を提示していただき、<span class="part-underline">その人数のみを参加明大生とします</span>のでご注意ください。また、明大祭へ来場するためのチケットを事前に取得していただく必要があります。
                 </div>
             </div>
         </div>
@@ -153,6 +202,23 @@
             });
         })
     </script>
+
+    <style>
+        .table-wrap {
+            border: none;
+            vertical-align: top;
+            padding: 0;
+        }
+
+        .table-wrap tr {
+            vertical-align: top;
+            padding: 0;
+        }
+        .table-wrap td{
+            text-align: left;
+            padding: 0;
+        }
+    </style>
 </body>
 
 </html>

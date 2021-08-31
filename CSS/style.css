@@ -3,17 +3,14 @@ body {
     overflow-x: hidden;
     /* スマホサイトはこれが必要 */
     font-family: 'Open Sans', sans-serif;
-    /* background-color: #23B9CD66; */
+    /* background-color: #2fa89a66; */
     background-color: #ffffff;
-    /* 40%透過 */
-    /* font-family: kozuka-gothic-pro, sans-serif;
-    font-weight: 900;
-    font-style: normal; */
+    font-display: block;
 }
 
 .index-photo {
     width: 100vw;
-    background-color: #23B9CD;
+    background-color: #2fa89a;
     transform: translateY(0.8vh);
 }
 
@@ -22,23 +19,23 @@ body {
 }
 
 .date-and {
-    height: 20vw;
-    background-color: #23B9CD;
+    height: 29vw;
+    background-color: #ffffff;
 }
 
 .date {
     width: 60%;
-    margin-left: 30%;
+    margin-left: 29.5%;
 }
 
 .title {
     padding-top: 3vw;
-    padding-left: 10vw;
-    width: 60%;
+    padding-left: 5vw;
+    width: 90%;
 }
 
 .main-block {
-    background-color: #23B9CD66;
+    background-color: #79d1db7e;
     /* 40%透過 */
 }
 
@@ -48,14 +45,13 @@ body {
     margin: 0 30vw;
     padding-top: 15vw;
     padding-bottom: 8vw;
-
     font-family: kozuka-gothic-pro, sans-serif;
     font-weight: 600;
     font-style: italic;
 }
 
 .circle {
-    background-color: #FFBF94;
+    background-color: #f4e767;
     border-radius: 50%;
     height: 2em;
     position: absolute;
@@ -71,19 +67,10 @@ body {
     margin-left: 5.5vw;
 }
 
-/* .buttonblock{
-
-} */
-
 .inbutton {
-    /* font-family: kozuka-gothic-pro, sans-serif;
-    font-weight: 900;
-    font-style: normal; */
     font-family: kozuka-gothic-pro, sans-serif;
-    /* font-weight: 700; */
     font-weight: 600;
     font-style: normal;
-
     font-size: 4.5vw;
     text-align: center;
     color: #F0F0F0;
@@ -108,7 +95,7 @@ body {
 }
 
 .bluebutton {
-    background-color: #23B9CD;
+    background-color: #2fa89a;
     width: 40vw;
     height: 40vw;
     border-radius: 2vw;
@@ -117,7 +104,7 @@ body {
 }
 
 .greenbutton {
-    background-color: #89d6a4;
+    background-color: #79d2db;
     width: 40vw;
     height: 40vw;
     border-radius: 2vw;
@@ -154,7 +141,7 @@ body {
 }
 
 .news-content {
-    margin-top: 5vw;
+    margin-top: 2vw;
     font-size:3vw;
     letter-spacing: 1px;
     line-height: 2em;
@@ -162,10 +149,10 @@ body {
 
 .news-content a {
     text-decoration: none;
-    color: #23a5cd;
+    color: #2fa89a;
     border-bottom: solid;
     border-width: 1px;
-    border-color: #23a5cd;
+    border-color: #2fa89a;
 }
 
 .readmore {

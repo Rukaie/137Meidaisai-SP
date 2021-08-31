@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="menu-bg-fixed">
 
 <head>
     <meta charset="UTF-8" />
@@ -41,10 +41,10 @@
     <script>
         (function (d) {
             var config = {
-                    kitId: 'sqb5klf',
-                    scriptTimeout: 3000,
-                    async: true
-                },
+                kitId: 'sqb5klf',
+                scriptTimeout: 3000,
+                async: true
+            },
                 h = d.documentElement,
                 t = setTimeout(function () {
                     h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
@@ -63,7 +63,7 @@
                 clearTimeout(t);
                 try {
                     Typekit.load(config)
-                } catch (e) {}
+                } catch (e) { }
             };
             s.parentNode.insertBefore(tk, s)
         })(document);
@@ -72,10 +72,10 @@
     <script>
         (function (d) {
             var config = {
-                    kitId: 'sqb5klf',
-                    scriptTimeout: 3000,
-                    async: true
-                },
+                kitId: 'sqb5klf',
+                scriptTimeout: 3000,
+                async: true
+            },
                 h = d.documentElement,
                 t = setTimeout(function () {
                     h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
@@ -94,7 +94,7 @@
                 clearTimeout(t);
                 try {
                     Typekit.load(config)
-                } catch (e) {}
+                } catch (e) { }
             };
             s.parentNode.insertBefore(tk, s)
         })(document);
@@ -135,32 +135,96 @@
 </head>
 
 <body>
-    <header id="header"></header>
-    <!-- 位置確認用 -->
-    <div id="nav-tgl"></div>
-    <!-- これは各ページに埋め込む -->
-    <div id="under-header"></div>
-    <!-- 調整用 -->
+    <div class="fakebody">
+        <header id="header"></header>
+        <!-- 位置確認用 -->
+        <div id="nav-tgl"></div>
+        <!-- これは各ページに埋め込む -->
+        <div id="under-header"></div>
+        <!-- 調整用 -->
 
-    <!-- ここまで調整用 -->
-    <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:100vw;">
-    <img class="index-photo" src="img/index-photo01.jpg" alt="スライドショーにする予定">
+        <!-- ここまで調整用 -->
+        <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:100vw;height:100vw;">
+        <img class="index-photo" src="img/index-photo01.jpg" alt="スライドショーにする予定">
 
-    <div class="date-and">
-        <img class="title" src="img/title.png">
-        <img class="date" src="img/date.png">
-    </div>
-
-    <div class="main-block">
-        <!-- 小見出し -->
-        <div class="headblock" style="margin: 0 28vw;">
-            <span class="circle"></span><span class="heading">Contents</span>
+        <div class="date-and">
+            <img class="ka-img" src="img/dummy.png" style="z-index: 1; position:absolute;width:100vw;">
+            <img class="title" src="img/indexlogos.png">
+            <!-- <img class="date" src="img/date.png"> -->
         </div>
-        <!-- 小見出しここまで -->
 
-        <div class="buttonblock">
-            <div class="button-row">
-                <a href="covid.html">
+        <div class="main-block">
+            <!-- 小見出し -->
+            <div class="headblock" style="margin: 0 28vw;">
+                <span class="circle"></span><span class="heading">Contents</span>
+            </div>
+            <!-- 小見出しここまで -->
+
+            <div class="buttonblock">
+                <div class="button-row">
+                    <a href="covid.html">
+                        <div class="bluebutton">
+                            <div class="inbutton" style="padding:1.2em 0;">
+                                <span
+                                    style="font-size: 3.5vw; line-height:0em;">新型コロナウイルス<br>感染拡大に伴う<br>明大祭の対応について</span><br><i
+                                    style="padding-top: 0.3em;" class="fas fa-arrow-circle-right fa-lg"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="about_festival.html">
+                        <div class="greenbutton">
+                            <div class="inbutton" style="padding-top: 3em;">
+                                明大祭概要<br><i style="padding-top: 1.63em;" class="fas fa-arrow-circle-right fa-lg"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="button-row">
+                    <a href="participants.html">
+                        <div class="greenbutton">
+                            <div class="inbutton" style="padding-top: 2.5em;">参加団体・参加者<br>のみなさまへ<br><img
+                                    src="img/people_white_24dp.svg">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="special.html">
+                        <div class="bluebutton">
+                            <div class="inbutton" style="padding-top: 3em;">
+                                特集<br><i style="padding-top: 1.63em;" class="fas fa-arrow-circle-right fa-lg"></i>
+                            </div>
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <div class="button-row">
+                    <a href="partner_company.html">
+                        <div class="bluebutton">
+                            <div class="inbutton" style="padding-top: 3.3em;">
+                                企業のみなさまへ<br><i style="padding-top: 0.5em;" class="far fa-building  fa-2x"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="partner_alumni.html">
+                        <div class="greenbutton">
+                            <div class="inbutton" style="padding-top: 3.3em;">校友のみなさまへ<br><img
+                                    style="padding-top: 0.5em;" src="img/people_white_24dp.svg">
+                            </div>
+                        </div>
+                    </a>
+
+
+                </div>
+                <div class="button-row">
+                    <a href="media.html">
+                        <div class="greenbutton">
+                            <div class="inbutton" style="padding-top: 2.2em;">メディアの<br>みなさまへ<br><img
+                                    src="img/laptop_windows_white_24dp.svg">
+                            </div>
+                        </div>
+                    </a>
+                    <!-- <a href="covid.html">
                     <div class="bluebutton">
                         <div class="inbutton" style="padding:1.2em 0;">
                             <span
@@ -168,76 +232,43 @@
                                 style="padding-top: 0.3em;" class="fas fa-arrow-circle-right fa-lg"></i>
                         </div>
                     </div>
-                </a>
-                <a href="about_festival.html">
-                    <div class="greenbutton">
-                        <div class="inbutton" style="padding-top: 3em;">
-                            明大祭概要<br><i style="padding-top: 1.63em;" class="fas fa-arrow-circle-right fa-lg"></i>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                </a> -->
 
-            <div class="button-row">
-                <a href="participants.html">
-                    <div class="greenbutton">
-                        <div class="inbutton" style="padding-top: 2.5em;">参加団体・参加者<br>のみなさまへ<br><img
-                                src="img/people_white_24dp.svg">
-                        </div>
-                    </div>
-                </a>
-                <a href="partner_company.html">
-                    <div class="bluebutton">
-                        <div class="inbutton" style="padding-top: 3.3em;">
-                            企業のみなさまへ<br><i style="padding-top: 0.5em;" class="far fa-building  fa-2x"></i>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="button-row">
-                <a href="partner_alumni.html">
-                    <div class="bluebutton">
-                        <div class="inbutton" style="padding-top: 3.3em;">校友のみなさまへ<br><img style="padding-top: 0.5em;"
-                                src="img/people_white_24dp.svg">
-                        </div>
-                    </div>
-                </a>
-                <a href="media.html">
-                    <div class="greenbutton">
-                        <div class="inbutton" style="padding-top: 2.2em;">メディアの<br>みなさまへ<br><img
-                                src="img/laptop_windows_white_24dp.svg">
-                        </div>
-                    </div>
-                </a>
+                </div>
 
             </div>
+
+            <!-- 小見出し -->
+            <div class="headblock" style="margin-left: 36vw;">
+                <span class="circle"></span><span class="heading">News</span>
+            </div>
+            <!-- 小見出しここまで -->
+            <div class="index-news">
+                <div class="date-status">
+                    <span class="status">UPDATE</span><span>8月28日(土)</span>
+                </div>
+
+                <div class="news-content">
+                    <div class="ka-content">
+                        <span class="half-space"></span>「<a href="arearandom.html">エリアランダム</a>」<br>ページをオープンしました。
+                    </div>
+                    <div class="ka-content">
+                        <span class="half-space"></span>「</span><a href="stage.html">屋外ステージにて企画を行う方へ</a>」<span
+                            class="news-space">、</span>「<a href="six_room.html">6番教室ステージにて企画を行う方へ</a>」<span
+                            class="news-space">、</span>
+                        <span class="half-space"></span>「<a href="room.html">教室にて企画を行う方へ</a>」<span
+                            class="news-space">、</span>「<a href="booth.html">模擬店にて企画を行う方へ</a>」
+                        <br>ページを更新しました。
+                    </div>
+                </div>
+
+                <div class="readmore">
+                    <a href="news.html">MORE >></a>
+                </div>
+            </div>
+
+            <div class="bottom-space"></div>
         </div>
-
-        <!-- 小見出し -->
-        <div class="headblock" style="margin-left: 36vw;">
-            <span class="circle"></span><span class="heading">News</span>
-        </div>
-        <!-- 小見出しここまで -->
-        <div class="index-news">
-            <div class="date-status">
-                <span class="status">UPDATE</span><span>5月28日(金)</span>
-            </div>
-            <!-- <div class="news-content">
-                第137回明大祭公式サイトをオープンしました。
-            </div> -->
-            <div class="news-content">
-                「<a href="participants.html">参加団体・参加者のみなさまへ</a>」<span class="news-space">、</span>「<a href="stage.html">屋外ステージにて企画を行う方へ</a>」<span class="news-space">、</span>「<a href="room.html">教室にて企画を行う方へ</a>」<span class="news-space">、</span>「<a href="six_room.html">6番教室ステージにて企画を行う方へ</a>」<span class="news-space">、</span>「<a href="booth.html">模擬店にて企画を行う方へ</a>」
-                ページを更新しました。
-            </div>
-
-
-            <div class="readmore">
-                <a href="news.html">MORE >></a>
-            </div>
-        </div>
-
-        <div class="bottom-space"></div>
     </div>
 
 
