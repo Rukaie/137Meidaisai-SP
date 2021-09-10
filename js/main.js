@@ -2,6 +2,7 @@ $(function () {
     $('#nav-tgl').on('change', function () {
         var st = $(window).scrollTop();
         if ($(this).prop("checked") == true) {
+            
             // $('html').addClass('scroll-prevent');
             // $('html').css('top', -(st) + 'px');
             // $('html').css('top', +(st) + 'px');
@@ -10,24 +11,24 @@ $(function () {
             //         $('html').removeClass('scroll-prevent');
             //         $(window).scrollTop(st);
 
-
             //     }
             // });
-            (function() {
+
+            (function () {
                 // スクロールを禁止する関数
                 function noScroll(event) {
-                  event.preventDefault();
+                    event.preventDefault();
                 }
-               // スクロール禁止(SP)
-               document.addEventListener('touchmove', noScroll, { passive: false });
-               // スクロール禁止(PC)
-             
-               document.addEventListener('mousewheel', noScroll, { passive: false });
-               // スクロール禁止を解除(SP)
-               document.removeEventListener('touchmove', noScroll, { passive: false });
-               // スクロール禁止を解除(PC)
-               document.removeEventListener('mousewheel', noScroll, { passive: false });
-             })();
+                // スクロール禁止(SP)
+                document.addEventListener('touchmove', noScroll, { passive: false });
+                // スクロール禁止(PC)
+
+                document.addEventListener('mousewheel', noScroll, { passive: false });
+                // スクロール禁止を解除(SP)
+                document.removeEventListener('touchmove', noScroll, { passive: false });
+                // スクロール禁止を解除(PC)
+                document.removeEventListener('mousewheel', noScroll, { passive: false });
+            })();
         }
     });
 })
